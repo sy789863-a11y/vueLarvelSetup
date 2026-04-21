@@ -43,7 +43,7 @@ class AuthController extends Controller
         ]);
           
         event(new Registered($user));
-        \Log::info('Event fired');
+        \Log::info('Event fired success fully');
 
         
         return true;
